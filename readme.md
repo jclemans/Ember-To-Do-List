@@ -1,6 +1,10 @@
 Ember To Do List
-__________________
+================
 
+Summary
+-------
+First project using Ember. Goal is to create an interactive To Do list using the guide located at [Ember.js Guides](http://emberjs.com/guides/getting-started/using-other-adapters/)
+__________________
 
 * It displays a list of todos for a user to see. This list will grow and shrink as the user adds and removes todos.
 
@@ -10,9 +14,9 @@ __________________
 
 * It displays the number of incomplete todos and keeps this count updated as new todos are added and existing todos are completed.
 
-It provides links for the user to navigate between lists showing all, incomplete, and completed todos.
+* It provides links for the user to navigate between lists showing all, incomplete, and completed todos.
 
-It provides a button to remove all completed todos and informs the user of the number of completed todos. This button will not be visible if there are no completed todos.
+* It provides a button to remove all completed todos and informs the user of the number of completed todos. This button will not be visible if there are no completed todos.
 
 * It provides a button to remove a single specific todo. This button displays as a user hovers over a todo and takes the form of a red X.
 
@@ -20,5 +24,5 @@ It provides a button to remove all completed todos and informs the user of the n
 
 * It allows a user to double click to show a textfield for editing a single todo. Hitting the <enter> key or moving focus outside of this textfield will persist the changed text.
 
-It retains a user's todos between application loads by using the browser's localstorage mechanism.
+* It retains a user's todos between application loads by using the browser's localstorage mechanism.
 
