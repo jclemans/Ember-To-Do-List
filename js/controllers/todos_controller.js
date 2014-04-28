@@ -1,5 +1,6 @@
 Todos.TodosController = Ember.ArrayController.extend({
   actions: {
+
     createTodo: function() {
       // Get the todo title set by the "New Todo" text field
       var title = this.get('newTitle');
@@ -16,7 +17,12 @@ Todos.TodosController = Ember.ArrayController.extend({
 
       // Save the new model
       todo.save();
-    }
+    },
+
+    editTodo: function() {
+    this.set('isEditing', true);
+    },
+
   },
 
   remaining: function() {
